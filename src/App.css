@@ -55,6 +55,16 @@
   width: 60px;
 }
 
-.header {
-  box-shadow: 1px;
+.header-nav {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.footer-page {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:2rem;   /* Height of the footer */
+   color: white;
+   background:brown;
+   text-align: center;
 }

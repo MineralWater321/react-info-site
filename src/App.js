@@ -13,7 +13,7 @@ function App() {
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header-nav">
       <nav className="nav">
         <img src={logo} className="img-logo" />
         <ul className="nav-items">
@@ -28,7 +28,7 @@ function Header() {
 
 function MainContent() {
   return (
-    <div>
+    <div className="content-body">
       <h1>Reasons I want to learn React</h1>
       <ol>
         <li>I love React</li>
@@ -40,7 +40,7 @@ function MainContent() {
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer-page">
       <small>
         2020 Paler development. All rights reserved.
       </small>

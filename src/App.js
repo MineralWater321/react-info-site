@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import logo from './react-logo.png'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <nav>
+          <img src={logo} width='40px' />
+        </nav>
       </header>
+      <h1>Reasons I love React</h1>
+      <ol>
+        <li>I love React</li>
+        <li>It's good for beginners</li>
+      </ol>
+      <footer>
+        <small>
+          2020 Paler development. All rights reserved.
+        </small>
+      </footer>
     </div>
   );
 }

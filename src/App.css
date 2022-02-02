@@ -63,7 +63,7 @@
    position:absolute;
    bottom:0;
    width:100%;
-   height:2rem;   /* Height of the footer */
+   height:2em;   /* Height of the footer */
    color: white;
    background:brown;
    text-align: center;
